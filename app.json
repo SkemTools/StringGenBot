@@ -1,0 +1,34 @@
+{
+    "name": "DaisyX Scrapper",
+    "description": "None",
+    "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
+    "keywords": ["Telethon", "telegram", "Scrapper", "python"],
+    "repository": "https://github.com/SkemTools/StringGenBot",
+    "website": "https://ultroid.netlify.app/",
+    "success_url": "https://t.me/DaisySupport_Official",
+    "stack": "container",
+    "env": {
+    "API_ID": {
+      "description": "Your API ID take it from @DaisyXScrapperBot or my.telegram.org",
+      "value": "28278"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string."
+    },
+    "API_HASH": {
+      "description": "Your API HASH take it from @DaisyXScrapperBot or my.telegram.org",
+      "value": ""
+    },
+    "COMMAND_PREFIXES": {
+      "description": "skem skem skem",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
