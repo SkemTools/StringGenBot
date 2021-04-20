@@ -178,8 +178,8 @@ async def help_command(_, message):
             ],
             [
                 InlineKeyboardButton(
-                    text="System Stats 🖥",
-                    callback_data="stats_callback"
+                    text="Developer 🖥",
+                    url="t.me/lucifeermorningstar"
                 ),
                 InlineKeyboardButton(
                     text="Support 👨",
@@ -226,12 +226,6 @@ async def commands_callbacc(_, CallbackQuery):
     )
 
     await CallbackQuery.message.delete()
-
-
-@app.on_callback_query(filters.regex("stats_callback"))
-async def stats_callbacc(_, CallbackQuery):
-    text = await bot_sys_stats()
-    await app.answer_callback_query(CallbackQuery.id, text, show_alert=True)
 
 
 @app.on_callback_query(filters.regex(r"help_(.*?)"))
