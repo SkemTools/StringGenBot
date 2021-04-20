@@ -1,8 +1,8 @@
 {
-    "name": "DaisyX Scrapper",
+    "name": "DaisyX StringGenerator",
     "description": "None",
-    "logo": "https://telegra.ph/file/1518e15421d21c5afd9af.jpg",
-    "keywords": ["Telethon", "telegram", "Scrapper", "python"],
+    "logo": "https://telegra.ph/file/0fbf00e1bcdb037e5daab.jpg",
+    "keywords": ["Telethon", "telegram", "Scrapper", "python"," String Generator","String Session"],
     "repository": "https://github.com/SkemTools/StringGenBot",
     "website": "https://ultroid.netlify.app/",
     "success_url": "https://t.me/DaisySupport_Official",
