@@ -8,7 +8,7 @@
     "success_url": "https://t.me/DaisySupport_Official",
     "stack": "container",
     "env": {
-    "API_ID": {
+    "APP_ID": {
       "description": "Your API ID take it from @DaisyXScrapperBot or my.telegram.org",
       "value": "28278"
     },
