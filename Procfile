@@ -1,1 +1,1 @@
-worker: python3 -m StringGen
+web: python3 -m StringGen
