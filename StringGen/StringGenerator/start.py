@@ -10,7 +10,9 @@ async def start(_, message: Message):
         f"""🙃 Hi {message.from_user.first_name}!
 ✨ Hey I am DaisyX String Generator Bot. 
 🥳 I can Generator String Session for You 😉
-⚜️ Use these buttons below to know more. 👇""",
+⚜️ Use these buttons below to know more. 👇
+🔥 Source Code Made by Devil With Help Of Other Bots 🔥
+👉 Type /genstr for Generating String Session 👈""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
