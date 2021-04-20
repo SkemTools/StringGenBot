@@ -1,4 +1,4 @@
-from config import ( BOT_TOKEN, API_ID, API_HASH ) 
+from StringGen.config import ( BOT_TOKEN, API_ID, API_HASH ) 
 
 from pyrogram import Client
 from pyromod import listen
