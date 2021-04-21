@@ -5,7 +5,7 @@ import uvloop
 from pyrogram import filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from StringGen.dyrogram import devil as app
-from StringGen.StringGenerator.__init__ import ALL_MODULES
+from StringGen.StringGenerator import ALL_MODULES
 from math import ceil
 from pyrogram.types import InlineKeyboardButton
 
