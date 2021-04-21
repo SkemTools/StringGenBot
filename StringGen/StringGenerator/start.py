@@ -1,10 +1,10 @@
-from pyrogram import Client
+from pyrogram import Client,filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from StringGen.filters import command, other_filters, other_filters2
+from StringGen import devil as app
 
-
-@Client.on_message(command("start") & other_filters2)
+@app.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
         f"""🙃 Hi {message.from_user.first_name}!
