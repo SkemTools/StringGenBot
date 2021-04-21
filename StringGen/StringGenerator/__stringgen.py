@@ -11,7 +11,7 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
 )
 
-from StringGen.dyrogram import devil as app
+from StringGen import devil as app
 
 
 @app.on_message(filters.command("genstr") & filters.private)
