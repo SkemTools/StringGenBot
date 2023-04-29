@@ -17,15 +17,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://github.com/SkemTools"
+                        "⚒ Channel code", url="https://t.me/Abo_Hadieda"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/DaisySupport_Official"
+                        "DEV", url="https://t.me/Abu_hadieda"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/DaisyXUpdates"
+                        "Channel 🔈", url="https://t.me/Abo_Hadieda"
                     )
                 ],
                 [
